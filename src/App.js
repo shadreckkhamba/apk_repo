@@ -1,5 +1,9 @@
+import Store from "./components/Store";
 function App() {
-    const name = "Shadreck";
-    return <div>Hello, {name}</div>;
+    return (
+        <div>
+            <Store/>
+        </div>
+    );
 }
 export default App;
