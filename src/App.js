@@ -1,8 +1,9 @@
 import Store from "./components/Store";
 function App() {
+    const StoreItems = ["Whatsapp","Facebook","Instagram"];
     return (
         <div>
-            <Store/>
+            <Store items={StoreItems}/>
         </div>
     );
 }
